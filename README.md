@@ -1,2 +1,2 @@
 # desafio-btg
-Repositório com o código fonte do desafio BTG Pactual.
+O código fonte e instruções para rodar a aplicação encontram-se na pasta springboot.processar.pedidos
