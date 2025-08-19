@@ -38,7 +38,7 @@ A aplicação é responsável por:
 ```
 ---
 
-🛠️ Tecnologias e Frameworks Utilizados
+## 🛠️ Tecnologias e Frameworks Utilizados
 - **Spring Boot**
   - **spring-boot-starter-web** → Desenvolvimento da API REST.
   - **spring-boot-starter-amqp** → Integração com RabbitMQ.
@@ -50,7 +50,7 @@ A aplicação é responsável por:
 - **Generic Fixture** → Geração de objetos randômicos para testes.
 ---
 
-## Como Rodar a aplicação
+## 🐳 Como Rodar a aplicação
 Dentro da pasta do projeto `springboot.processar.pedidos` abrir o terminal de sua preferência e executar o comando: `docker-compose up -d`
 
 ‼️ Após finalizar o pull e o start dos três containers (btg-postgres, rabbitmq e Nome da aplicação) aguardar em torno de 30 a 60 segundos para iniciar os testes.
