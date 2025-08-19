@@ -53,7 +53,7 @@ A aplicação é responsável por:
 ## 🐳 Como Rodar a aplicação
 Dentro da pasta do projeto `springboot.processar.pedidos` abrir o terminal de sua preferência e executar o comando: `docker-compose up -d`
 
-‼️ Após finalizar o pull e o start dos três containers (btg-postgres, rabbitmq e Nome da aplicação) aguardar em torno de 30 a 60 segundos para iniciar os testes.
+‼️ Após finalizar o pull e o start dos três containers aguardar em torno de 30 a 60 segundos para iniciar os testes.
 
 ## 🐇 Como postar uma mensagem no tópico
 ### 1. Acessar o rabbitMQ 
