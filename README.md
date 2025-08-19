@@ -55,7 +55,7 @@ Dentro da pasta do projeto `springboot.processar.pedidos` abrir o terminal de su
 
 ‼️ Após finalizar o pull e o start dos três containers (btg-postgres, rabbitmq e Nome da aplicação) aguardar em torno de 30 a 60 segundos para iniciar os testes.
 
-## Como postar uma mensagem no tópico
+## 🐇 Como postar uma mensagem no tópico
 ### 1. Acessar o rabbitMQ 
 
 Link da interface gráfica do rabbitMq: http://localhost:15672/
@@ -88,7 +88,7 @@ Mensagem de exemplo:
 }
 ```
 
-## API de consulta 
+## 🌐 API de consulta 
 
 Curl da API.
 ```curl
@@ -116,4 +116,15 @@ de response:
 }
 ```
 
+## 🐘 Como acessar o banco de dados
+
+Host: 0.0.0.0
+
+Porta: 5432
+
+Banco de dados: db_gerenciador_pedidos
+
+Usuário: postgres
+
+Senha: 123456
 
