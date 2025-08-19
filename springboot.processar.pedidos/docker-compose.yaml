@@ -22,9 +22,8 @@ services:
       - 5432:5432
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
-  api-springboot:
-    #image: api-springboot
-    image: brunokayser/btg-infraestrutura:latest #Em dúvida se precisa deixar essa imagem, ou a outra.
+  springboot-processar-pedidos:
+    image: brunokayser/springboot-processar-pedidos:latest
     restart: always
     ports:
       - 8080:8080
